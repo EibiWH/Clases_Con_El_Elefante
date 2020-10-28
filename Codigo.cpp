@@ -4,7 +4,11 @@ using namespace std;
 
 int main(){
 
-    cout<<"Hola mundo"<<endl;
+    string nom;
+
+    cout<<"Como te llamas perra?\n";
+    cin>>nom;
+    cout<<"Hola "<<nom<<endl;
 
     return 0;
 }
